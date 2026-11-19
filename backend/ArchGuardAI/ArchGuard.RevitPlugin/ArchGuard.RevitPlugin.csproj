@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net48</TargetFramework>
+		<LangVersion>latest</LangVersion>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<PlatformTarget>x64</PlatformTarget>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Nice3point.Revit.Api.RevitAPI" Version="2022.1.80" />
+	  <PackageReference Include="Nice3point.Revit.Api.RevitAPIUI" Version="2022.1.80" />
+	  <PackageReference Include="System.Net.Http.Json" Version="8.0.1" />
+	</ItemGroup>
+
+</Project>

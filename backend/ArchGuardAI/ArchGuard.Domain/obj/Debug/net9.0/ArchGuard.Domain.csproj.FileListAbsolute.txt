@@ -1,0 +1,11 @@
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\bin\Debug\net9.0\ArchGuard.Domain.deps.json
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\bin\Debug\net9.0\ArchGuard.Domain.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\bin\Debug\net9.0\ArchGuard.Domain.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ArchGuard.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ArchGuard.Domain.AssemblyInfoInputs.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ArchGuard.Domain.AssemblyInfo.cs
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ArchGuard.Domain.csproj.CoreCompileInputs.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ArchGuard.Domain.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\refint\ArchGuard.Domain.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ArchGuard.Domain.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Domain\obj\Debug\net9.0\ref\ArchGuard.Domain.dll

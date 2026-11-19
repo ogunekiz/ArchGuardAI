@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = ArchGuard.RevitPlugin
+build_property.ProjectDir = D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 

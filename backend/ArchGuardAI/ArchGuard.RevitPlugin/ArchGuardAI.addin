@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>ArchGuard AI BIM Denetimi</Name>
+    <Assembly>D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\bin\Debug\net48\ArchGuard.RevitPlugin.dll</Assembly>
+    <AddInId>8F4B2A1E-9C3D-4E7A-B1D2-6F8E9A0C1B2D</AddInId>
+    <FullClassName>ArchGuard.RevitPlugin.SendToArchGuardCommand</FullClassName>
+    <Text>ArchGuard AI'ya Gönder</Text>
+    <Description>Aktif Revit modelini ArchGuard AI denetim sistemine aktarır.</Description>
+    <VendorId>ARCHGUARD</VendorId>
+    <VendorDescription>ArchGuard AI BIM Compliance</VendorDescription>
+  </AddIn>
+</RevitAddIns>

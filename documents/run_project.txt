@@ -1,0 +1,14 @@
+- Docker üzerinde containerleri oluşturmak için "deploy" klasöründe iken aşağıdaki komutu çalıştırın:
+  docker compose up -d
+
+- API projesini çalıştırmak için "backend\ArchGuardAI\ArchGuard.Api" klasöründe iken aşağıdaki komutu çalıştırın:
+  dotnet run --launch-profile https
+
+- React projesini çalıştırmak için "frontend" klasöründe iken sırayla aşağıdaki komutları çalıştırın:
+  npm install
+  npm run dev
+
+- Python projesini çalıştırmak için "ifc-processor" klasöründe iken aşağıdaki komutu çalıştırın:
+  .\venv\Scripts\uvicorn.exe app.main:app --host 0.0.0.0 --port 8020 --reload
+    
+

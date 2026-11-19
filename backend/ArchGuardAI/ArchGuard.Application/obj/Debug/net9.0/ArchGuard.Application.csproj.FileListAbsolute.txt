@@ -1,0 +1,15 @@
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\bin\Debug\net9.0\ArchGuard.Application.deps.json
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\bin\Debug\net9.0\ArchGuard.Application.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\bin\Debug\net9.0\ArchGuard.Application.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\bin\Debug\net9.0\ArchGuard.Domain.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\bin\Debug\net9.0\ArchGuard.Domain.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.csproj.AssemblyReference.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.AssemblyInfoInputs.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.AssemblyInfo.cs
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.csproj.CoreCompileInputs.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuar.37195097.Up2Date
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\refint\ArchGuard.Application.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ArchGuard.Application.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.Application\obj\Debug\net9.0\ref\ArchGuard.Application.dll

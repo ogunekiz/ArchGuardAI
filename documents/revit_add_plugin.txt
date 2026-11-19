@@ -1,0 +1,1 @@
+Revit 2022 programına ArchGuardAI eklentisini olarak eklemek için, ArchGuardAI.addin adlı dosyayı "C:\ProgramData\Autodesk\Revit\Addins\2022" içine kopyalayın.

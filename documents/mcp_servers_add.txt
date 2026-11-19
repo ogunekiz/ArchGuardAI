@@ -1,0 +1,10 @@
+Claude Desktop üzerinde MCP Server kurmak için, C:\Users\pixel\AppData\Roaming\Claude\ içerisindeki claude_desktop_config.json dosyasına aşağıdaki kodu ekleyin.
+
+"mcpServers": {
+    "archguard-bim": {
+      "command": "C:\\Program Files\\nodejs\\node.exe",
+      "args": [
+        "D:\\Projects\\ArchGuardAI\\backend\\ArchGuardAI\\mcp-bridge.js"
+      ]
+    }
+  },

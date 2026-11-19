@@ -1,0 +1,236 @@
+[
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.AuditController",
+    "Method": "GetFindings",
+    "RelativePath": "api/Audit/{projectId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "projectId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArchGuard.Application.DTOs.AuditFindingResponseDto, ArchGuard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.AuditController",
+    "Method": "ChatWithModel",
+    "RelativePath": "api/Audit/chat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArchGuard.Application.DTOs.BimChatRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArchGuard.Application.DTOs.BimChatResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.AuditController",
+    "Method": "RunAudit",
+    "RelativePath": "api/Audit/run",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArchGuard.Application.DTOs.RunAuditRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArchGuard.Application.DTOs.AuditFindingResponseDto, ArchGuard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.McpController",
+    "Method": "HandleRpc",
+    "RelativePath": "api/Mcp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ArchGuard.Api.Controllers.McpController\u002BMcpJsonRpcRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.ProjectsController",
+    "Method": "GetAll",
+    "RelativePath": "api/Projects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[ArchGuard.Application.DTOs.ProjectSummaryResponseDto, ArchGuard.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.ProjectsController",
+    "Method": "GetById",
+    "RelativePath": "api/Projects/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArchGuard.Application.DTOs.ProjectSummaryResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.ProjectsController",
+    "Method": "IngestFromRevit",
+    "RelativePath": "api/Projects/ingest-from-revit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "modelData",
+        "Type": "ArchGuard.Application.DTOs.IfcParseResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArchGuard.Application.DTOs.ProjectSummaryResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.ProjectsController",
+    "Method": "UploadIfc",
+    "RelativePath": "api/Projects/upload-ifc",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "ArchGuard.Application.DTOs.ProjectSummaryResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.RegulationsController",
+    "Method": "Search",
+    "RelativePath": "api/Regulations/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "query",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "topK",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ArchGuard.Api.Controllers.RegulationsController",
+    "Method": "UploadRegulationPdf",
+    "RelativePath": "api/Regulations/upload-pdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

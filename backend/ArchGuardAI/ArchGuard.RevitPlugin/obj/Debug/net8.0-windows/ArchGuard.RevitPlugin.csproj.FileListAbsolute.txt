@@ -1,0 +1,12 @@
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.AssemblyInfoInputs.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.AssemblyInfo.cs
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.csproj.CoreCompileInputs.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\bin\Debug\net8.0-windows\ArchGuard.RevitPlugin.deps.json
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\bin\Debug\net8.0-windows\ArchGuard.RevitPlugin.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\bin\Debug\net8.0-windows\ArchGuard.RevitPlugin.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.csproj.AssemblyReference.cache
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\refint\ArchGuard.RevitPlugin.dll
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ArchGuard.RevitPlugin.pdb
+D:\Projects\ArchGuardAI\backend\ArchGuardAI\ArchGuard.RevitPlugin\obj\Debug\net8.0-windows\ref\ArchGuard.RevitPlugin.dll

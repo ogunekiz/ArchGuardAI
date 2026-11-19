@@ -1,0 +1,35 @@
+services:
+  archguard-postgres:
+    image: postgres:16-alpine
+    container_name: archguard-postgres
+    environment:
+      POSTGRES_USER: archguard_admin
+      POSTGRES_PASSWORD: ArchGuard_Dev_2026!
+      POSTGRES_DB: archguard_db
+    ports:
+      - "5452:5432"
+    volumes:
+      - archguard_pg_data:/var/lib/postgresql/data
+    deploy:
+      resources:
+        limits:
+          cpus: '0.75'
+          memory: 512M
+
+  archguard-qdrant:
+    image: qdrant/qdrant:latest
+    container_name: archguard-qdrant
+    ports:
+      - "6353:6333"
+      - "6354:6334"
+    volumes:
+      - archguard_qdrant_data:/qdrant/storage
+    deploy:
+      resources:
+        limits:
+          cpus: '0.75'
+          memory: 768M
+
+volumes:
+  archguard_pg_data:
+  archguard_qdrant_data:

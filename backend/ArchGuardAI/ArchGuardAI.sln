@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37906.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchGuard.Domain", "ArchGuard.Domain\ArchGuard.Domain.csproj", "{3FC22F9D-3C99-4771-BBBF-27D45F0513C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchGuard.Application", "ArchGuard.Application\ArchGuard.Application.csproj", "{45571ED6-8366-4E15-9F2C-783FA107A47D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchGuard.Infrastructure", "ArchGuard.Infrastructure\ArchGuard.Infrastructure.csproj", "{1518E37B-6992-43C2-BDE9-130E84896B1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchGuard.Api", "ArchGuard.Api\ArchGuard.Api.csproj", "{3CA84EDB-2F89-492C-907B-F7460797AF4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArchGuard.RevitPlugin", "ArchGuard.RevitPlugin\ArchGuard.RevitPlugin.csproj", "{AC3D6910-7E6B-4C23-8F22-026A92CCFCF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FC22F9D-3C99-4771-BBBF-27D45F0513C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FC22F9D-3C99-4771-BBBF-27D45F0513C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FC22F9D-3C99-4771-BBBF-27D45F0513C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FC22F9D-3C99-4771-BBBF-27D45F0513C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45571ED6-8366-4E15-9F2C-783FA107A47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45571ED6-8366-4E15-9F2C-783FA107A47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45571ED6-8366-4E15-9F2C-783FA107A47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45571ED6-8366-4E15-9F2C-783FA107A47D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1518E37B-6992-43C2-BDE9-130E84896B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1518E37B-6992-43C2-BDE9-130E84896B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1518E37B-6992-43C2-BDE9-130E84896B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1518E37B-6992-43C2-BDE9-130E84896B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CA84EDB-2F89-492C-907B-F7460797AF4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CA84EDB-2F89-492C-907B-F7460797AF4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CA84EDB-2F89-492C-907B-F7460797AF4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CA84EDB-2F89-492C-907B-F7460797AF4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC3D6910-7E6B-4C23-8F22-026A92CCFCF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC3D6910-7E6B-4C23-8F22-026A92CCFCF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC3D6910-7E6B-4C23-8F22-026A92CCFCF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC3D6910-7E6B-4C23-8F22-026A92CCFCF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB58A4A4-F386-4AE6-9EC8-B4300A7447A3}
+	EndGlobalSection
+EndGlobal
