@@ -12,7 +12,7 @@ Mimari projelerin (BIM / IFC / Revit) imar ve yangın yönetmeliklerine uygunlu�
 ---
 
 ### 2. Sistem Mimarisi ve Teknoloji Yığını
-* **Backend:** .NET 9.0, Python, ASP.NET Core Web API, Clean Architecture, CQRS, Entity Framework Core
+* **Backend:** .NET 9.0, Python, ASP.NET Core Web API, Clean Architecture, Entity Framework Core
 * **Veritabanı & Vektör Arama:** PostgreSQL 16 (BIM Elemanları ve Denetim Bulguları), Qdrant Vector DB (Yönetmelik PDF Embedding)
 * **Yapay Zeka & Ajan Protokolleri:** Microsoft Semantic Kernel, Google Gemini API, NVIDIA NIM, Model Context Protocol (MCP)
 * **CAD Entegrasyonu:** Autodesk Revit 2022 C# Eklentisi (.NET Framework 4.8, Revit API)
